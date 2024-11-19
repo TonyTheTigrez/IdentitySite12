@@ -1,0 +1,82 @@
+
+
+.NameTag {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #aa00ff;
+    text-align: center;
+  }
+
+  table, th, td, form {
+    border: 3px solid black;
+}
+/* background */
+body {
+  background-image: url(https://t3.ftcdn.net/jpg/08/98/20/40/360_F_898204046_3jqyPwjY2R2t6XwZqTaEi6vmFbI8lqKX.jpg); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center top;   
+
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* short paragrpah about me */
+.Div1 {
+  background: rgb(149, 152, 141);
+  border: 3px solid black;
+  width: 400px;
+  height: 70px;
+  text-align: center;
+  padding: 10px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Parent {
+background-color: rgb(149, 152, 141);
+margin: 20px;
+padding: 3px;
+width: 500px;
+height: 200px;
+top: 10px;
+border: 3px solid black;
+opacity: 0.7;
+}
+
+#Child {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+#Table {
+display: flex;
+justify-content: center;
+margin-top:  22px;
+background-color: rgb(149, 152, 141);
+margin: 10px;
+padding: 5px;
+}
+.flex{
+  display: flex; /* or inline-flex */
+  justify-content: center;
+
+}
+
+#Soccer {
+width: 250px;
+height: 250px;
+
+}
+
+#Table {
+margin-right: auto;
+margin-left: auto;
+width: 500px;
+}
